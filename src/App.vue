@@ -167,7 +167,7 @@ const cardForm = mp.cardForm({
             identificationType,
           } = cardForm.getCardFormData();
 
-      const createSuscrip = fetch("https://backmp-production.up.railway.app/mercadopago/suscribirMercadoPago", {
+      const createSuscrip = fetch("https://s3.miclinicamedica.com.ar/api/mercadopago/suscribirMercadoPago", {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
